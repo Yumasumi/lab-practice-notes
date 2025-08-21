@@ -91,10 +91,6 @@ Parity: None
 Stop bits: 1
 Flow control: None
 ```
-
----
-好，我幫你把 FortiGate 的 **初始化與還原方式** 條理清楚整理成一份「一眼懂的筆記」。
-
 ---
 
 # 🔹FortiGate 初始化 / 還原方法整理
@@ -442,7 +438,7 @@ DMZ 全名是 **Demilitarized Zone**（非軍事區），在網路架構裡是�
 
   * **通常沒有啟用 STP**，因為防火牆是三層設備（L3 Routing），不是 L2 交換器。
   * Port-to-Port 轉送走的是 **IP Routing**，而不是 Switch 的 MAC Flooding。
-* ✅ 所以你看到「STP 可以關掉」，就是因為防火牆用不到它。
+* 所以你看到「STP 可以關掉」，就是因為防火牆用不到它。
 
 ### 在這個 LAB 的角色定位
 
@@ -492,7 +488,7 @@ DMZ 全名是 **Demilitarized Zone**（非軍事區），在網路架構裡是�
 
   * 拓樸偵測（像 Cisco CDP，Fortinet 也支援 LLDP）。
   * NMS（網管系統）會自動繪製網路拓樸。
-* ✅ 安全性建議：內網用可以開，外網建議關閉，避免洩漏設備資訊。
+* 安全性建議：內網用可以開，外網建議關閉，避免洩漏設備資訊。
 
 ### 在這個 LAB 的角色定位
 
