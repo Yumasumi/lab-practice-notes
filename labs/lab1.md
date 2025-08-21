@@ -251,9 +251,9 @@ Flow control: None
 
 # 🔹設定 FortiGate 60E（邊界防火牆）
 
-電腦接網路線到 60E 的 Port1
-GUI → Network → Interface
-預設的 Internal 只保留 1，其他 2~7 拿掉
+電腦接網路線到 60E 的 Port1 <br>
+GUI → Network → Interface <br>
+預設的 Internal 只保留 1，其他 2~7 拿掉 <br>
 
 1. **Internal2 (WAN)**
 
@@ -285,9 +285,9 @@ GUI → Network → Interface
 
 # 🔹設定 FortiGate 50E（內部防火牆）
 
-電腦接網路線到 50E 的 Port1
-GUI → Network → Interface
-預設的 lan 只保留 1，其他 2~5 拿掉
+電腦接網路線到 50E 的 Port1 <br>
+GUI → Network → Interface <br>
+預設的 lan 只保留 1，其他 2~5 拿掉 <br>
 
 1. **lan2**
 
